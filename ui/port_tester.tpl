@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-sm-12 col-md-12">
             <div class="panel panel-primary panel-hovered panel-stacked mb30">
-                <div class="panel-heading">Testing port external</div>
+                <div class="panel-heading">{Lang::T('Testing port external')}</div>
                 <div class="panel-body">
                     <div class="form-group">
                         <label class="col-md-2 control-label">Port</label>
@@ -14,14 +14,14 @@
                     </div>
                     <div class="form-group">
                         <div class="col-lg-offset-2 col-lg-10">
-                            <button class="btn btn-success waves-effect waves-light" type="submit">Test It</button>
+                            <button class="btn btn-success waves-effect waves-light" type="submit">{Lang::T('Test it')}</button>
                         </div>
                     </div>
                 </div>
             </div>
             {if $result != ''}
             <div class="panel panel-primary panel-hovered panel-stacked mb30">
-                <div class="panel-heading">Result</div>
+                <div class="panel-heading">{Lang::T('Result')}</div>
                 <div class="panel-body">
                     {Lang::nl2br($result)}
                 </div>
